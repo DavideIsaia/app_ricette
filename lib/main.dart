@@ -1,8 +1,10 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:app_ricette/screens/meal_detail_screen.dart';
 import 'package:flutter/material.dart';
 import './screens/categories_screen.dart';
 import './screens/category_meals_screen.dart';
+import './screens/meal_detail_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -29,6 +31,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (ctx) => CategoriesScreen(),
         '/category-meals': (ctx) => CategoryMealsScreen(),
+        '/meal-detail': (ctx) => MealDetailScreen(),
       },
     );
   }
