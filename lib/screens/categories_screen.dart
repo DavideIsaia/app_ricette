@@ -1,6 +1,8 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
-import './dummy_data.dart';
-import './category_item.dart';
+import '../dummy_data.dart';
+import '../widgets/category_item.dart';
 
 class CategoriesScreen extends StatelessWidget {
   @override
@@ -17,8 +19,8 @@ class CategoriesScreen extends StatelessWidget {
               crossAxisSpacing: 20,
               mainAxisSpacing: 20),
           children: DUMMY_CATEGORIES
-              .map((catData) =>
-                  CategoryItem(title: catData.title, color: catData.color))
+              .map((catData) => CategoryItem(
+                  id: catData.id, title: catData.title, color: catData.color))
               .toList(),
         ));
   }
