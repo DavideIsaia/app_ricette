@@ -8,7 +8,7 @@ const DUMMY_CATEGORIES = const [
   Category(
     id: 'c1',
     title: 'Italiani',
-    color: Colors.purple,
+    color: Colors.blue,
   ),
   Category(
     id: 'c2',
@@ -28,12 +28,12 @@ const DUMMY_CATEGORIES = const [
   Category(
     id: 'c5',
     title: 'Lights',
-    color: Colors.blue,
+    color: Colors.lime,
   ),
   Category(
     id: 'c6',
     title: 'Esotici',
-    color: Colors.green,
+    color: Colors.teal,
   ),
   Category(
     id: 'c7',
@@ -53,6 +53,6 @@ const DUMMY_CATEGORIES = const [
   Category(
     id: 'c10',
     title: 'Estivi',
-    color: Colors.teal,
+    color: Colors.orange,
   ),
 ];
